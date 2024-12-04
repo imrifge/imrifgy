@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ש.ל. איכות הנדסה</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const logo = document.querySelector(".logo-container img");
+            logo.addEventListener("mouseover", () => {
+                logo.classList.add("animate-logo");
+            });
+            logo.addEventListener("animationend", () => {
+                logo.classList.remove("animate-logo");
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="unnamed.png" alt="לוגו ש.ל. איכות הנדסה" />
+    </div>
+    <h1 class="header-title">ש.ל. איכות הנדסה</h1>
+    <nav class="nav-links">
+        <a href="#about">אודות</a>
+        <a href="#services">שירותים</a>
+        <a href="#projects">פרויקטים</a>
+        <a href="#contact">צרו קשר</a>
+    </nav>
+</header>
+
+<section id="about" class="section">
+    <h2>אודות החברה</h2>
+    <p>ש.ל. איכות הנדסה מספקת שירותי ניהול, תכנון ופיקוח על פרויקטים הנדסיים מהמובילים בארץ.</p>
+</section>
+
+<section id="services" class="section">
+    <h2>שירותים</h2>
+    <ul>
+        <li>ניהול פרויקטים</li>
+        <li>פיקוח ובקרה</li>
+        <li>תכנון הנדסי</li>
+    </ul>
+</section>
+
+<section id="projects" class="section">
+    <h2>פרויקטים נבחרים</h2>
+    <p>אנו גאים לקחת חלק בפרויקטים שהשפיעו רבות על פיתוח התשתיות והמבנים בישראל.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>צרו קשר</h2>
+    <p>טלפון: 054-8317010</p>
+    <p>דוא"ל: <a href="mailto:s.l.qualityeng@gmail.com">s.l.qualityeng@gmail.com</a></p>
+</section>
+
+</body>
+</html>
+<link rel="stylesheet" href="tbh.css">
